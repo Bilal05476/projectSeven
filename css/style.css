@@ -1,0 +1,158 @@
+/*Import Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+/*Make whole web font 72.5%. Default font size was 16px, now font change 72.5% === 11.6px */
+html {
+  font-size: 72.5%;
+}
+/*target whole body / universe for vanish 
+all default margin padding and define font family for whole web*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+}
+/*Css Variables*/
+:root{
+  --white-- : #fff;
+  --darkBlue-- : rgb(0, 4, 22);
+  --orange-- : rgb(255, 166, 0);
+}
+.main__div {
+  background-color: rgb(248, 248, 248);
+  margin: 2rem;
+  box-sizing: border-box;
+  box-shadow: 0 6rem 6rem rgb(158, 151, 151);
+  border-radius: 1px;
+}
+.top__row > div{
+  margin-bottom: 1.4rem;
+}
+.top__row strong{
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.image__div {
+  margin: 2rem;
+  margin-top: -2rem;
+  background-image: url(../img/bg1.jpeg);
+  background: linear-gradient(
+    top right,
+    rgba(212, 109, 11, 0.479),
+    rgba(212, 109, 11, 0.479)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box__div {
+  margin: 3.3rem;
+  margin-top: -2rem;
+}
+.navbar{
+  background-color: var(--darkBlue--);
+  padding: 1.2rem;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  margin-left: 15rem;
+  padding-top: 2rem;
+}
+.row > div {
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  border: 1px solid var(--orange--);
+  background-color: var(--orange--);
+  color: var(--white--);
+  outline: none;
+}
+.applyBtn{
+  margin-left: .9rem;
+  margin-top: .7rem;
+}
+form {
+  margin-left: 34rem;
+}
+.nav-link{
+  color: var(--white--);
+}
+.nav-link:hover{
+  color: var(--orange--);
+}
+.nav-item .active{
+  color: var(--orange--);
+}
+.image__text {
+  color: var(--white--);
+  padding: 12rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.image__para {
+  color: var(--white--);
+  padding-left: 12rem;
+}
+.image__btn {
+  color: var(--white--);
+  background-color: var(--orange--);
+  margin-left: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 12rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.image__btn:hover {
+  transform: translateX(4px);
+  transition: 0.5s;
+}
+.box__1,
+.box__3 {
+  background-color: var(--orange--);
+  color: var(--white--);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.box__2,
+.box__4 {
+  background-color: var(--darkBlue--);
+  color: var(--white--);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.fa {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.box__1:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.box__2:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.box__3:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.box__4:hover {
+  box-shadow: 4rem 4rem 4rem #333;
+  transition: 0.5s;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
